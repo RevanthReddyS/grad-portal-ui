@@ -1,4 +1,10 @@
 export const FORM = "/form";
-export const FIRST_NAME = "first_name";
-export const LAST_NAME = "last_name";
-export const EMAIL = "email_address";
+export const AWARDS_PATH = "/awards";
+export const HONORS_PATH = "/honors";
+export const PATENTS_PATH = "/patent";
+export const PROJECTS_PATH = "/project";
+export const CERTIFICATE_PATH = "/certificate";
+export const RESIDENCIES_PATH = "/reside";
+export const WORK_EXPERIENCE_PATH = "/work_experience";
+export const SKILLS_PATH = "/qualities";
+export const ACCOUNTS_PATH = "/accounts";

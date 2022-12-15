@@ -1,0 +1,27 @@
+.profile-card {
+  margin-left: 5px;
+  margin-right: 5px;
+  & .MuiPaper-root {
+    box-shadow: 0px 4px 16px hsla(29, 75%, 8%, 0.2);
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 430px;
+  }
+  & .MuiCardHeader-root {
+    background: beige !important;
+  }
+  & .MuiCardMedia-img {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border: 4px solid;
+    border-radius: 60px;
+  }
+  & .MuiCardContent-root {
+    display: grid;
+    place-items: center;
+  }
+}

@@ -1,10 +1,7 @@
 export const REQUEST_BODY_KEYS = {
-  name: "name",
-  notes: "notes",
-  tags: "tags",
-  priority: "priority",
-  date: "due_date",
-  type: "type",
-  title: "title",
-  status: "status",
+  firstName: "first_name",
+  lastName: "last_name",
+  email: "email_address",
+  roleID: "role_id",
+  summary: "summary",
 };

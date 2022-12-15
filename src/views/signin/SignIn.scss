@@ -1,0 +1,44 @@
+$base-color: darkblue;
+.gradportal {
+  &__signin {
+    &--card {
+      width: 500px;
+      margin-left: -50px;
+      margin-top: 40px;
+      box-shadow: 0px 2px 11px -1px rgb(0 0 0 / 20%),
+        0px 1px 1px 0px rgba(109, 74, 74, 0.14),
+        0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+    }
+    &--toolbar {
+      justify-content: center !important;
+    }
+    &--headericon {
+      color: $base-color;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    &--box {
+      margin: 65px 30px 65px 30px !important;
+    }
+    &--error {
+      margin-top: 20px;
+    }
+
+    &--checkbox {
+      color: $base-color !important;
+    }
+    &--icon {
+      font-size: 40px !important;
+      margin-bottom: 15px;
+      color: $base-color;
+      border: 4px solid $base-color;
+      border-radius: 50%;
+      padding: 7px;
+    }
+    &--button {
+      background-color: $base-color !important;
+    }
+  }
+}

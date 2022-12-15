@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.stepper-desktop {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 962px) {
+  .stepper-desktop {
+    margin: initial;
+    width: initial;
+    padding: initial;
+  }
+}
